@@ -2,9 +2,48 @@
 
 This directory contains the source code for the presentation "Beyond planarity: On geometric intersection graphs" by Sariel Har-Peled. The slide deck is built using [Quarto](https://quarto.org/) with the `revealjs` format.
 
+## Why use quarto?
+
+Its enable you to use the browser to display a presentation, and the
+generated look is much cleaner than beamer or other
+alternatives. Quarto supports out of the box bibtex and latex math
+including using your own macros. More importantly, generating the
+presentation is much faster than latexing your talk - so the
+development cycle is faster. To summarize:
+
+  - Clean look - looks nicer than beamer/powerpoint/other programs.
+  
+  - supports animations on linux.
+  
+  - Faster development cycle than beamer.
+  
+  - Supports everything I needed (latex, biblatex).
+  
+  - does transition animations automatically.
+  
+  - works with markdown so basic presentation can be filled in as fast
+    as you type. Once you have the presentation you can spend much
+    time on fiddling with the presentation format and look.
+
+  - Pretty easy to learn. A bit challenging to write your own macros
+    (but I did, so not that difficult).
+    
+  - Quarto offers a lot of other features that I have not tried and
+    used, including running programs during the presentation. 
+  
+## Demo
+
+You can view the presentation using the
+[dracula](https://sarielhp.org/talks/26/03_bp/#/title-slide) theme and
+the
+[solarized](https://sarielhp.org/talks/26/03_bp_white/#/title-slide). Note,
+that I used the dracula theme in my talk, so the other version has
+some issues that I did not address since I did not use it.
+
 ## Generating the Presentation
 
-To generate the presentation, you will need to have [Quarto installed](https://quarto.org/docs/get-started/).
+To generate the presentation, you will need to have [Quarto
+installed](https://quarto.org/docs/get-started/).
 
 Once installed, you can render the `.qmd` file to an HTML presentation by running the following command in this directory:
 
