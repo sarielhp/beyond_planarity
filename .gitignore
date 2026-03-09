@@ -1,0 +1,16 @@
+scripts/*
+snapshot/*
+presentation_files/*
+julia/output/*\
+backup/*
+/figs/*
+!/figs/**/
+!/figs/**/*.svg
+!/figs/**/*.mp4
+!/figs/**/*.jpg
+figs/**/*.pdf
+figs/**/*.dot
+figs/**/*.ipe
+
+
+
