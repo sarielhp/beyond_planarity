@@ -2,6 +2,16 @@
 
 This directory contains the source code for the presentation "Beyond planarity: On geometric intersection graphs" by Sariel Har-Peled. The slide deck is built using [Quarto](https://quarto.org/) with the `revealjs` format.
 
+## Demo
+
+You can view the presentation using the
+[dracula](https://sarielhp.org/talks/26/03_bp/#/title-slide) theme and
+the
+[solarized](https://sarielhp.org/talks/26/03_bp_white/#/title-slide). Note,
+that I used the dracula theme in my talk, so the other version has
+some issues that I did not address since I did not use it.
+
+
 ## Why use quarto?
 
 Its enable you to use the browser to display a presentation, and the
@@ -31,14 +41,6 @@ development cycle is faster. To summarize:
   - Quarto offers a lot of other features that I have not tried and
     used, including running programs during the presentation. 
   
-## Demo
-
-You can view the presentation using the
-[dracula](https://sarielhp.org/talks/26/03_bp/#/title-slide) theme and
-the
-[solarized](https://sarielhp.org/talks/26/03_bp_white/#/title-slide). Note,
-that I used the dracula theme in my talk, so the other version has
-some issues that I did not address since I did not use it.
 
 ## Generating the Presentation
 
