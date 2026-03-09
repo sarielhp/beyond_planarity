@@ -7,7 +7,7 @@ This directory contains the source code for the presentation "Beyond planarity: 
 You can view the presentation using the
 [dracula](https://sarielhp.org/talks/26/03_bp/#/title-slide) theme and
 the
-[solarized](https://sarielhp.org/talks/26/03_bp_white/#/title-slide). Note,
+[solarized](https://sarielhp.org/talks/26/03_bp_white/#/title-slide) theme. Note,
 that I used the dracula theme in my talk, so the other version has
 some issues that I did not address since I did not use it.
 
@@ -41,6 +41,10 @@ development cycle is faster. To summarize:
   - Quarto offers a lot of other features that I have not tried and
     used, including running programs during the presentation. 
   
+## What I did not use...
+
+There is supposedly a vscode plugin. That should make writing
+presentation even easier. I would try it next time ;).
 
 ## Generating the Presentation
 
